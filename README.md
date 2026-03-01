@@ -5,7 +5,7 @@ Matlab code in the paper "Reconciling contrasting predictions from patch- and po
 This ZIP file has three subfolders: "1_deterministic_simulation", "2_sde_simulation", and "3_demographic_simulation".
 
 
-In the subfolder "1_deterministic_simulation", 6 files are list:
+In the subfolder "1_deterministic_simulation", 8 files are list:
 
 
 1. "single_det_LV_main": 
@@ -32,6 +32,12 @@ This file is the main MATLAB code for two-species deteminisitc resource competit
 This file is a defined function included in files "single_det_resource_main" and "two_det_resource_main".
 
 
+7. "two_det_LV_invasion_main": This file is the main MATLAB code for two-species deteminisitc Lotka-Volterra model, where perturbations were implemented as external catastrophic events. Coexistence is evaluated through mutual invasion analysis. Figure S14 can be generated using this code.
+
+
+8. "invasion_analysis": This file is a defined function included in files "two_det_LV_invasion_main".
+
+
 In the subfolder "2_sde_simulation", 6 files are list:
 
 
@@ -40,7 +46,7 @@ This file is the main MATLAB code for single-species Lotka-Volterra model, where
 
 
 2. "two_sde_LV_main": 
-This file is the main MATLAB code for two-species Lotka-Volterra model, where perturbations arise from environmental stochasticity. Figures 5 and S8 can be generated using this code.
+This file is the main MATLAB code for two-species Lotka-Volterra model, where perturbations arise from environmental stochasticity. Figures S8 and S9 can be generated using this code.
 
 
 3. "LV_sde": 
@@ -52,7 +58,7 @@ This file is the main MATLAB code for single-species resource cmpetition model, 
 
 
 5. "two_sde_resource_main": 
-This file is the main MATLAB code for two-species resource cmpetition model, where perturbations arise from environmental stochasticity. Figure S9 can be generated using this code.
+This file is the main MATLAB code for two-species resource cmpetition model, where perturbations arise from environmental stochasticity. Figure S10 can be generated using this code.
 
 
 6. "consumer_drift": 
@@ -67,7 +73,7 @@ This file is the main MATLAB code for single-species Lotka-Volterra model, where
 
 
 2. "two_dem_LV_main":
-This file is the main MATLAB code for two-species Lotka-Volterra model, where perturbations arise from demographic stochasticity. Figures S10 and S11 can be generated using this code.
+This file is the main MATLAB code for two-species Lotka-Volterra model, where perturbations arise from demographic stochasticity. Figures S11 and S12 can be generated using this code.
 
 
 3. "dem_LV_dispersal":
@@ -79,7 +85,7 @@ This file is the main MATLAB code for single-species resource competition model,
 
 
 5. "two_dem_resource_main":
-This file is the main MATLAB code for two-species resource competition model, where perturbations arise from demographic stochasticity. Figures S12 can be generated using this code.
+This file is the main MATLAB code for two-species resource competition model, where perturbations arise from demographic stochasticity. Figures S13 can be generated using this code.
 
 
 6. "dem_resource_dispersal":
